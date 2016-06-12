@@ -1,0 +1,141 @@
+/* CSS for samchoi.org */
+/* Created by Sam Choi */
+/* Last Update: 6-1-15 */
+
+h1 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	/* Montserrat */
+}
+
+h3 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	color: black;
+}
+
+p {
+	font-size: 14px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 400px;
+	letter-spacing: 0.5px;
+	color: #8c8c8c;
+	/* proxima-nova */
+}
+
+a {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	text-decoration: none;
+	color: black;
+}
+
+
+div div > hr {
+  border-top: 1px solid;
+  color: #e6e6e6;
+}
+
+div.row {
+	margin: auto;
+	margin-top: -10px;
+	margin-bottom: -40px;
+
+}
+
+div > ul {
+	font-size: 14px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 400px;
+	letter-spacing: 0.5px;
+	color: #8c8c8c;
+	/* proxima-nova */
+}
+
+
+.navbar .navbar-header > a {
+	color: #0d0d0d;
+	text-shadow: none;
+	font-weight: normal;
+	font-size: 36px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-decoration: none; 
+}
+
+.navbar .navbar-header > a:hover {
+	color: #4d4d4d;
+	text-shadow: none;
+	font-weight: 600px;
+	text-decoration: none;
+}
+
+.navbar .nav > li > a {
+	color: #8c8c8c;
+	text-shadow: none;
+}
+
+.navbar .nav > li > a:hover {
+	color: black;
+	text-shadow: none;
+}
+
+
+div.navbar-header a:visited {
+	text-decoration: none;
+}
+
+div.navbar-header a:hover {
+	text-decoration: none;
+}
+
+div.navbar-header a:active {
+	text-decoration: none;
+}
+
+#profile {
+	width: 250px;
+	height: auto;
+	display: block;
+	margin-left: 12px;
+}
+
+#text {
+	line-height: 30px;
+	margin-top: 220px;
+	margin-left: 180px;
+	display: inline-block;
+	width: 500px;
+	text-align: left;
+}
+
+#name {
+	font-size: 50px;
+}
+
+#connect {
+	color: #8c8c8c;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+#connect > a {
+	color: #8c8c8c;
+}
+
+#connect > a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+#invisible {
+	visibility: hidden;
+}
+
+.row {
+    padding:2em 10%;
+}
+
+
+
+
+
+
+
+
