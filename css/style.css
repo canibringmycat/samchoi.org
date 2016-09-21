@@ -60,7 +60,9 @@ div > ul {
 	font-weight: normal;
 	font-size: 36px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	text-decoration: none; 
+	text-decoration: none;
+	-webkit-transition: color 0.1s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.1s;
 }
 
 .navbar .navbar-header > a:hover {
@@ -73,11 +75,16 @@ div > ul {
 .navbar .nav > li > a {
 	color: #8c8c8c;
 	text-shadow: none;
+	-webkit-transition: color 0.1s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.1s;
+    text-decoration: none;
+
 }
 
 .navbar .nav > li > a:hover {
 	color: black;
 	text-shadow: none;
+	text-decoration: none;
 }
 
 
@@ -136,7 +143,31 @@ div.navbar-header a:active {
     padding:2em 10%;
 }
 
+#playlist {
+	text-align: center;
+}
 
+#playlist-title {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#playlist-title a {
+	text-decoration: none;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 400px;
+	letter-spacing: 0.5px;
+	color: #8c8c8c;
+    -webkit-transition: color 0.1s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.1s;
+}
+
+#playlist-title a:hover {
+	color: #000000;
+    /*color: #7E0309;*/
+    text-decoration: none;
+}
 
 
 
